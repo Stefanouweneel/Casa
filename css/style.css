@@ -1,0 +1,63 @@
+.page-header {
+  height: 80px;
+  padding-bottom: 0px !important;
+  margin: 0px 0 0px !important;
+  background-color: #00285D;
+}
+
+h3 {
+  color: #EF3E33 !important;
+  padding-bottom: 15px !important;
+}
+
+.casa-logo {
+  padding-top: 27px;
+  padding-left: 20px;
+  width: 350px;
+}
+
+.building {
+  width: 100%;
+}
+
+.building-contact {
+  width: 100%;
+}
+
+.panel-float {
+  float: right;
+}
+
+.casa-font {
+  font-weight: 500;
+  color: #00285D;
+}
+
+.sub-content {
+  padding-bottom: 15px;
+}
+
+.h-divider {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  height:1px;
+  width:100%;
+  border-top:1px solid #CCCCCC;
+}
+
+.b-divider {
+  padding-top: 5px;
+  height:1px;
+  width:100%;
+  border-top:1px solid #CCCCCC;
+}
+
+.casa-contact {
+  font-size: 75%;
+  padding-left: 28px;
+}
+
+.panel {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
