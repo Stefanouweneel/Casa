@@ -16,6 +16,10 @@ h3 {
   width: 350px;
 }
 
+p.veld {
+  padding-bottom: 10px;
+}
+
 .building {
   width: 100%;
 }
@@ -44,6 +48,13 @@ h3 {
   border-top:1px solid #CCCCCC;
 }
 
+.f-divider {
+  padding-bottom: 5px;
+  height:1px;
+  width:100%;
+  border-top:1px solid #CCCCCC;
+}
+
 .b-divider {
   padding-top: 5px;
   height:1px;
@@ -66,6 +77,10 @@ input.text {
   margin: 0.5%;
 }
 
+select.text {
+  margin: 0.5%;
+}
+
 label.label-text {
   width: 10%;
   margin: 0.5%;
@@ -81,19 +96,19 @@ textarea.textarea {
 
 iframe {
   width: 100%;
-  height: 75vh;
+  height: 90vh;
 }
 
 @media screen and (max-width: 1200px){
   iframe {
     width: 100%;
-    height: 75vh;
+    height: 90vh;
   }
 }
 
 @media screen and (max-width: 500px){
   iframe {
     width: 100%;
-    height: 75vh;
+    height: 90vh;
   }
 }

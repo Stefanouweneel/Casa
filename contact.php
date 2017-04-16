@@ -59,31 +59,37 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])) {
 <body>
   <form method="post" action="contact.php">
 
+    <h3>Informatieformulier</h3>
+    <p class="veld">Velden waar een * bij staat zijn verplicht</p>
+
     <?php echo $succMsg ?>
     <?php echo $errMsg ?>
 
-    <label class="label-text">Aanhef:</label>
-    <input class="text" name="aanhef"><br>
+    <label class="label-text">Aanhef: *</label>
+    <select class="text" name="aanhef">
+      <option value="man">De heer</option>
+      <option value="vrouw">Mevrouw</option>
+    </select><br>
 
-    <label class="label-text">Naam:</label>
+    <label class="label-text">Naam: *</label>
     <input class="text" name="naam"><br>
 
-    <label class="label-text">Adres:</label>
+    <label class="label-text">Adres: *</label>
     <input class="text" name="adres"><br>
 
-    <label class="label-text">Postcode:</label>
+    <label class="label-text">Postcode: *</label>
     <input class="text" name="postcode"><br>
 
-    <label class="label-text">Plaats:</label>
+    <label class="label-text">Plaats: *</label>
     <input class="text" name="plaats"><br>
 
-    <label class="label-text">Telefoonummer:</label>
+    <label class="label-text">Telefoonummer: *</label>
     <input class="text" name="tel"><br>
 
-    <label class="label-text">Email-adres:</label>
+    <label class="label-text">Email-adres: *</label>
     <input class="text" name="email"><br>
 
-    <label class="label-text">Uw bericht:</label>
+    <label class="label-text">Uw bericht: *</label>
     <textarea class="textarea" name="bericht"></textarea><br>
 
     <div class="g-recaptcha" data-sitekey="6LdAJB0UAAAAAIz20KIjwYYgcEIwK6c_MGXqGI-i"></div><br>
